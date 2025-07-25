@@ -1,0 +1,9 @@
+{
+  "name": "SIGEP",
+  "description": "Bem vindo ao Seu portal de integração, aprendizado e crescimento profissonal.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "prompt": ""
+}
