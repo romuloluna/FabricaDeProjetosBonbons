@@ -50,8 +50,15 @@ const SignatureModal: React.FC<{ doc: Document; onSign: (docId: number, signerNa
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-8 w-full max-w-2xl">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{doc.title}</h2>
                 <div className="my-4 p-4 h-48 overflow-y-auto border border-gray-300 dark:border-gray-600 rounded-md text-gray-700 dark:text-gray-300">
-                    <h3 className="font-bold">Lorem Ipsum Dolor Sit Amet</h3>
-                    <p>Consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.</p>
+                    <h3 className="font-bold">Contrato Amet</h3>
+                    <p>Temos o prazer de comunicar que você foi selecionado(a) para integrar nossa equipe, assumindo uma posição compatível com suas competências e experiência. Reconhecemos seu desempenho durante o processo seletivo e acreditamos que sua contribuição será valiosa para o desenvolvimento da nossa organização.
+
+A proposta inclui remuneração mensal no valor de R$ [valor], além dos benefícios legais e adicionais oferecidos pela empresa. A carga horária será de [horas] horas semanais, conforme acordado previamente.
+
+Solicitamos a gentileza de confirmar seu interesse e disponibilidade para início imediato. Após sua confirmação, daremos continuidade ao processo de admissão, incluindo a formalização do contrato de trabalho.
+
+Agradecemos por seu interesse em fazer parte do nosso time e estamos animados com a possibilidade de contar com você em breve.
+</p>
                 </div>
                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                      <div>
@@ -98,8 +105,14 @@ const ViewDocumentModal: React.FC<{ doc: Document; onClose: () => void }> = ({ d
             <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-8 w-full max-w-2xl">
                 <h2 className="text-2xl font-bold text-gray-900 dark:text-white">{doc.title}</h2>
                 <div className="my-4 p-4 h-64 overflow-y-auto border border-gray-300 dark:border-gray-600 rounded-md text-gray-700 dark:text-gray-300">
-                    <h3 className="font-bold">Lorem Ipsum Dolor Sit Amet</h3>
-                    <p>Consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.</p>
+                    <h3 className="font-bold">Contrato</h3>
+                    <p>
+Este contrato estabelece as condições de prestação de serviços entre empregador e empregado. O empregado exercerá suas funções conforme orientação do empregador, cumprindo jornada de trabalho definida e recebendo remuneração mensal compatível com o cargo e as atividades desempenhadas. O vínculo empregatício será regido pela legislação vigente, especialmente pela Consolidação das Leis do Trabalho (CLT).
+
+O empregado compromete-se a cumprir as normas internas, agir com responsabilidade, ética e dedicação, zelando pelo bom desempenho de suas atividades. O empregador se compromete a fornecer condições adequadas de trabalho, respeitar os direitos trabalhistas e garantir o pagamento dos salários e benefícios previstos em lei.
+
+O presente contrato poderá ser rescindido por qualquer das partes, mediante aviso prévio conforme determina a legislação. Ao firmar este contrato, ambas as partes concordam com todos os termos aqui estabelecidos.
+</p>
                 </div>
                  <div className="mt-4 p-4 bg-green-100 dark:bg-green-900 rounded-md text-green-800 dark:text-green-200">
                     <p className="font-semibold">Documento assinado</p>
